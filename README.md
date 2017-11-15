@@ -1,6 +1,6 @@
 # ShareBook
 
-1.获取书籍借阅列表  http://localhost:8000/bookItem/books   POST方法
+1.获取书籍借阅列表  http://localhost:8000/bookItem/books   POST方法  参数有str，可以模糊查询书籍名称，作者，上传书籍者姓名；tag，书籍标签；pageSize页码尺寸；pageNo页码
 
 返回结果：
 {
